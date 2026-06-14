@@ -83,34 +83,37 @@ function Skills() {
 
       {/* AWS Certification Callout */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        style={{ borderColor: "rgba(16,185,129,0.2)", backgroundColor: "rgba(16,185,129,0.05)" }}
-        className="mt-10 border rounded-2xl p-6 flex-col md:flex-row items-start md:items-center justify-between gap-4"
-      >
-        <div>
-          <span style={{ color: "#10b981" }} className="text-xs font-semibold tracking-widest uppercase">
-            Verified Certification
-          </span>
-          <h4 className="text-white font-semibold text-lg mt-1">
-            AWS Academy Machine Learning Foundations
-          </h4>
-          <p className="text-white/40 text-sm mt-1">
-            Amazon Web Services · 2024 · Credly Badge Verified
-          </p>
-        </div>
-        <a
-          href="https://www.credly.com/badges/11a9e56e-4765-4c83-80a9-f0cbad9f7724"
-          target="_blank"
-          rel="noreferrer"
-          style={{ backgroundColor: "#10b981" }}
-          className="shrink-0 hover:opacity-90 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-opacity duration-200"
-        >
-          Verify Badge →
-        </a>
-      </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5, delay: 0.3 }}
+  style={{ borderColor: "rgba(16,185,129,0.2)", backgroundColor: "rgba(16,185,129,0.05)" }}
+  className="mt-10 border rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 flex-wrap"
+>
+  <div>
+    <span
+      style={{ color: "#10b981" }}
+      className="text-xs font-semibold tracking-widest uppercase"
+    >
+      Verified Certification
+    </span>
+    <h4 className="text-white font-semibold text-lg mt-1">
+      AWS Academy Machine Learning Foundations
+    </h4>
+    <p className="text-white/40 text-sm mt-1">
+      Amazon Web Services · 2024 · Credly Badge Verified
+    </p>
+  </div>
+  <a
+    href="https://www.credly.com/badges/11a9e56e-4765-4c83-80a9-f0cbad9f7724"
+    target="_blank"
+    rel="noreferrer"
+    style={{ backgroundColor: "#10b981" }}
+    className="shrink-0 hover:opacity-90 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-opacity duration-200 self-start sm:self-center"
+  >
+    Verify Badge →
+  </a>
+</motion.div>
 
     </section>
   )
