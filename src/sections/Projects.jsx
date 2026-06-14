@@ -7,7 +7,7 @@ const projects = [
       "Designed and built this portfolio from scratch using React, Tailwind CSS, and Framer Motion. Deployed on Vercel.",
     tags: ["React", "Tailwind", "Framer Motion", "Vercel"],
     github: "https://github.com/tehreemahmadchh",
-    live: "#",
+    live: "https://portfolio-tau-seven-enf5fqozfc.vercel.app/",
     status: "live",
   },
   {
